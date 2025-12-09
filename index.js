@@ -1,4 +1,5 @@
 // NASA APOD API Backend - Updated CORS for production
+require('dns').setDefaultResultOrder('ipv4first');
 require('dotenv').config();
 const express = require('express');
 const app = express();
